@@ -301,4 +301,9 @@ main {
   max-width: 100%;
   height: auto;
 }
+
+i {
+  font-size: 2.5em;
+  padding: 0.20em;
+}
 /*# sourceMappingURL=style.css.map */

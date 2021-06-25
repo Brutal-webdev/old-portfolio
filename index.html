@@ -6,7 +6,8 @@
         <title>Dominic Scaccia's Portfolio</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="app/scss/style.css">
+        <link rel="stylesheet" href="./app/scss/style.css">
+        <script src="./app/js/script.js" defer></script>
     </head>
     <body>
         <header class="header">
@@ -15,17 +16,16 @@
             <div class="overlay has-fade">
 
             </div>
-
             <!--Navigation Bar-->
             <nav class="container flex flex-jc-sb flex-ai-c">
 
                 <!--Area for the logo-->
-                <a href="#" class="header__logo noSelect">
+                <a href="#dummydiv" class="header__logo noSelect">
                     BRTL
                 </a>
 
                 <!--Area for the mobile menu button-->
-                <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop noSelect">
+                <a id="btnHamburger" href="#dummydiv" class="header__toggle hide-for-desktop noSelect">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -33,20 +33,19 @@
 
                 <!--Area for desktop naviagtion-->
                 <div class="header__links hide-for-mobile">
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Projects</a>
-                    <a href="#">Contact</a>
+                    <a href="#dummydiv">Home</a>
+                    <a href="#dummydiv">About</a>
+                    <a href="#dummydiv">Projects</a>
+                    <a href="#dummydiv">Contact</a>
+                </div>
+
+                <div class="header__menu has-fade">
+                    <a href="#dummydiv" class="noSelect">Home</a>
+                    <a href="#dummydiv" class="noSelect">About</a>
+                    <a href="#dummydiv" class="noSelect">Projects</a>
+                    <a href="#dummydiv" class="noSelect">Contact</a>
                 </div>
             </nav>
-
-            <!--Area for the navigation drop down menu-->
-            <div class="header__menu has-fade">
-                <a href="#" class="noSelect">Home</a>
-                <a href="#" class="noSelect">About</a>
-                <a href="#" class="noSelect">Projects</a>
-                <a href="#" class="noSelect">Contact</a>
-            </div>
         </header>
 
         <main class="container">
@@ -69,7 +68,8 @@
         <footer>
 
         </footer>
+            <div class="dummydiv">
 
-        <script src="app/js/script.js"></script>
+            </div>
     </body>
 </html>

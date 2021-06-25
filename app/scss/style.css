@@ -228,6 +228,7 @@ main {
 }
 
 .header__links a {
+  font-weight: bold;
   position: relative;
   font-size: 0.875rem;
   -webkit-transition: color 300ms ease-in-out;
@@ -258,6 +259,10 @@ main {
 
 .header__links a:hover::before {
   opacity: 1;
+}
+
+.header__logo {
+  font-weight: bold;
 }
 
 @media (max-width: 63.9375em) {

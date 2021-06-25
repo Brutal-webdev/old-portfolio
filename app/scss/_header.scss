@@ -76,6 +76,7 @@
     &__links {
 
         a {
+            font-weight: bold;
             position: relative;
             font-size: $font-sm;
             transition: color 300ms ease-in-out;
@@ -105,5 +106,9 @@
 
             }
         }
+    }
+
+    &__logo {
+        font-weight: bold;
     }
 }

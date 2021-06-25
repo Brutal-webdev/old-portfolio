@@ -159,6 +159,8 @@ main {
   position: relative;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
   padding: 1.5rem;
   border-radius: 5px;
   -webkit-box-shadow: 0 15px 30px 1px grey;
@@ -300,6 +302,24 @@ main {
   width: auto;
   max-width: 100%;
   height: auto;
+}
+
+@media (max-width: 63.9375em) {
+  .about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 64em) {
+  .about {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
 i {

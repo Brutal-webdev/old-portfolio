@@ -1,0 +1,9 @@
+.about {
+    @include breakpoint-down(medium) {
+        flex-direction: column;
+    }
+
+    @include breakpoint-up(large) {
+        flex-direction: row;
+    }
+}

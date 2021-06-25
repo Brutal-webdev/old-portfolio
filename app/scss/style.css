@@ -140,6 +140,15 @@ a, a:visited, a:hover {
   padding-right: 1.5rem;
 }
 
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
 .header.open .overlay {
   display: block;
 }

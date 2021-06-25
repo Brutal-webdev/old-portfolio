@@ -5,6 +5,7 @@
 
         .overlay {
             display: block;
+            z-index: 1;
         }
 
         .header__toggle {
@@ -39,6 +40,7 @@
         background-color: white;
         padding-top: 1.0625rem;
         padding-bottom: 1.0625rem;
+        z-index: 10;
     }
     &__toggle { //Mobile menu button
         > span {

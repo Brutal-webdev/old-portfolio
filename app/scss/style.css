@@ -168,6 +168,7 @@ main {
 
 .header.open .overlay {
   display: block;
+  z-index: 1;
 }
 
 .header.open .header__toggle > span:first-child {
@@ -202,6 +203,7 @@ main {
   background-color: white;
   padding-top: 1.0625rem;
   padding-bottom: 1.0625rem;
+  z-index: 10;
 }
 
 .header__toggle > span {

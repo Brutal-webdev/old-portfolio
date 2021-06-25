@@ -1,6 +1,10 @@
+
+// Everything to help do global styling
 @import "variables";
 @import "mixins";
 @import "animations";
-
 @import "globals";
+
+// Styling for seperate sections
 @import "header";
+@import "hero";

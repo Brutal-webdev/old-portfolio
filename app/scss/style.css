@@ -155,6 +155,16 @@ main {
   -webkit-tap-highlight-color: transparent;
 }
 
+.card {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 15px 30px 1px grey;
+          box-shadow: 0 15px 30px 1px grey;
+  background: rgba(255, 255, 255, 0.9);
+}
+
 .header.open .overlay {
   display: block;
 }

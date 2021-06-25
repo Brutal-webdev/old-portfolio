@@ -192,10 +192,6 @@ main {
   padding-bottom: 1.0625rem;
 }
 
-.header__logo .logo {
-  width: 4.5em;
-}
-
 .header__toggle > span {
   display: block;
   width: 26px;

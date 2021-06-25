@@ -64,6 +64,8 @@ btnHamburger.addEventListener('touch', function(){
     }
 });
 
+// close drop down menu when touched
+
 navLink.forEach(item => {
     item.addEventListener('touch', () => {
         if(header.classList.contains('open')) {

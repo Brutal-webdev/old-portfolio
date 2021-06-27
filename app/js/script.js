@@ -6,8 +6,6 @@ const fadeElems = document.querySelectorAll('.has-fade');
 const navLink = document.querySelectorAll('.navLink');
 
 btnHamburger.addEventListener('click', function(){
-    console.log('open hamburger');
-
     if(header.classList.contains('open')){ // close hamburger menu
         body.classList.remove('noscroll');
         header.classList.remove('open');
@@ -44,8 +42,6 @@ navLink.forEach(item => {
 
 // Mobile Design 
 btnHamburger.addEventListener('touch', function(){
-    console.log('open hamburger');
-
     if(header.classList.contains('open')){ // close hamburger menu
         body.classList.remove('noscroll');
         header.classList.remove('open');

@@ -168,6 +168,18 @@ main {
   background: rgba(255, 255, 255, 0.9);
 }
 
+#home,
+#home:target,
+#about,
+#about:target,
+#projects,
+#projects:target {
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden;
+}
+
 .header.open .overlay {
   display: block;
 }

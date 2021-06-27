@@ -66,7 +66,7 @@ main {
     padding-right: 1.5rem;
 }
 
-// test
+
 // No highlighting in mobile
 
 .noSelect {
@@ -92,3 +92,17 @@ main {
     box-shadow: 0 15px 30px 1px grey;
     background: rgba(255, 255, 255, 0.90);
 }
+
+// offset for links
+
+#home,
+#home:target,
+#about,
+#about:target,
+#projects,
+#projects:target {
+    display: block;
+    position: relative;
+    top: -50px; 
+    visibility: hidden;
+ }

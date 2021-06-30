@@ -22,10 +22,10 @@
             position: relative;
             margin-top: 1.5rem;
             margin-bottom: 1.5rem;
-            padding: 1.5rem;
             border-radius: 5px;
             box-shadow: 0 15px 30px 1px grey;
             background: rgba(255, 255, 255, 0.90);
+            height: auto;
 
             @include breakpoint-down(medium) { // mobile
                 width: 100%;
@@ -36,15 +36,27 @@
             }
 
             img {
-
+                margin-bottom: 1rem;
+                width: 100%;
+                height: auto;
             }
 
             p {
-
+                margin: 1.5rem;
             }
 
             a {
+                display: inline-block;
+                border-radius: 5px;
+                margin: 1rem;
+                color: white;
+                background-color: black;
+                padding: 1rem;
+                transition: color 300ms ease-in-out;
 
+                &:hover{
+                    background-color: gray;
+                }
             }
     }
 }

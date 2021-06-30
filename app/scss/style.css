@@ -274,7 +274,7 @@ main {
   height: 5px;
   left: 0;
   right: 0;
-  bottom: -20px;
+  bottom: -15px;
   background: grey;
   opacity: 0;
   -webkit-transition: opacity 300ms ease-in-out;

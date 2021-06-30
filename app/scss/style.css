@@ -424,7 +424,7 @@ i {
   background-color: gray;
 }
 
-footer {
+.footer {
   margin-top: 1.5rem;
   text-align: center;
   width: 100%;
@@ -432,12 +432,12 @@ footer {
   background-color: #0E0B16;
 }
 
-footer i {
+.footer__icon {
   margin: 1rem;
   color: white;
 }
 
-footer p {
+.footer__text {
   text-align: center;
   margin: 0;
   padding: 0;

@@ -8,6 +8,10 @@
     &__icon {
         margin: 1rem;
         color: white;
+
+        @include breakpoint-down(xsmall) { //mobile
+            font-size: 2rem;
+        }
     }
 
     &__text {

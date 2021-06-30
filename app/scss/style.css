@@ -437,6 +437,12 @@ i {
   color: white;
 }
 
+@media (max-width: 22.9375em) {
+  .footer__icon {
+    font-size: 2rem;
+  }
+}
+
 .footer__text {
   text-align: center;
   margin: 0;
@@ -445,5 +451,3 @@ i {
   color: white;
 }
 /*# sourceMappingURL=style.css.map */
-
-/* test */

@@ -273,7 +273,7 @@ main {
   height: 5px;
   left: 0;
   right: 0;
-  bottom: -30px;
+  bottom: -20px;
   background: grey;
   opacity: 0;
   -webkit-transition: opacity 300ms ease-in-out;
@@ -445,5 +445,3 @@ i {
   color: white;
 }
 /*# sourceMappingURL=style.css.map */
-
-/* test */

@@ -1,10 +1,10 @@
 .hero {
     
-    @include breakpoint-down(medium) {
+    @include breakpoint-down(medium) { //mobile
         flex-direction: column;
     }
 
-    @include breakpoint-up(large) {
+    @include breakpoint-up(large) { // desktop
         flex-direction: row;
     }
 
@@ -12,6 +12,17 @@
         width: auto;
         max-width:100%;
         height: auto;
+    }
+
+    &__text {
+        @include breakpoint-down(large) { //mobile
+            margin-right: 0;
+        }
+        
+        @include breakpoint-up(xlarge) { // desktop
+            margin-right: 15rem;
+        }
+    
     }
 }
 // test

@@ -1,0 +1,50 @@
+.projects {
+
+
+    &__header {
+
+    }
+
+    &__container {
+
+        flex-flow: row wrap;
+
+        @include breakpoint-down(small) { // mobile
+           flex-direction: column;
+         }
+    
+        @include breakpoint-up(large) { // desktop
+            flex-direction: row;
+        }
+    }
+
+    &__card {
+            position: relative;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            padding: 1.5rem;
+            border-radius: 5px;
+            box-shadow: 0 15px 30px 1px grey;
+            background: rgba(255, 255, 255, 0.90);
+
+            @include breakpoint-down(medium) { // mobile
+                width: 100%;
+            }
+
+            @include breakpoint-up(large) { // desktop
+                width: 23%;
+            }
+
+            img {
+
+            }
+
+            p {
+
+            }
+
+            a {
+
+            }
+    }
+}

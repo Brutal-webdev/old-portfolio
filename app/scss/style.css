@@ -316,6 +316,18 @@ main {
   height: auto;
 }
 
+@media (max-width: 87.4375em) {
+  .hero__text {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 87.5em) {
+  .hero__text {
+    margin-right: 15rem;
+  }
+}
+
 @media (max-width: 63.9375em) {
   .about {
     -webkit-box-orient: vertical;
@@ -337,5 +349,53 @@ main {
 i {
   font-size: 2.5em;
   padding: 0.20em;
+}
+
+.projects__container {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+@media (max-width: 39.9375em) {
+  .projects__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 64em) {
+  .projects__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.projects__card {
+  position: relative;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 15px 30px 1px grey;
+          box-shadow: 0 15px 30px 1px grey;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 63.9375em) {
+  .projects__card {
+    width: 100%;
+  }
+}
+
+@media (min-width: 64em) {
+  .projects__card {
+    width: 23%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

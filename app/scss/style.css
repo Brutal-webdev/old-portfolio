@@ -374,6 +374,13 @@ i {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 
@@ -396,7 +403,7 @@ i {
 
 @media (min-width: 64em) {
   .projects__card {
-    width: 23%;
+    width: 26rem;
   }
 }
 
@@ -452,4 +459,3 @@ i {
   color: white;
 }
 /*# sourceMappingURL=style.css.map */
-/* test */

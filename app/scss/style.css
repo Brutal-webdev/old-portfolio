@@ -347,6 +347,10 @@ main {
   }
 }
 
+article p {
+  line-height: 1.9rem;
+}
+
 i {
   font-size: 2.5em;
   padding: 0.20em;
